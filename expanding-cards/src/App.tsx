@@ -11,11 +11,11 @@ function App() {
   // const DEFAULT_BACKGROUND_IMAGE = "";
 
   const backgroundsList = [
-    {id: 1, backgroundImg: ONE_BACKGROUND_IMAGE},
-    {id: 2, backgroundImg: TWO_BACKGROUND_IMAGE},
-    {id: 3, backgroundImg: THREE_BACKGROUND_IMAGE},
-    {id: 4, backgroundImg: FOUR_BACKGROUND_IMAGE},
-    {id: 5, backgroundImg: FIVE_BACKGROUND_IMAGE},
+    {id: 1, backgroundImg: ONE_BACKGROUND_IMAGE,   panelName: "Portfolio Item One"}, 
+    {id: 2, backgroundImg: TWO_BACKGROUND_IMAGE,   panelName: "Portfolio Item Two"},
+    {id: 3, backgroundImg: THREE_BACKGROUND_IMAGE, panelName: "Portfolio Item Three"},
+    {id: 4, backgroundImg: FOUR_BACKGROUND_IMAGE,  panelName: "Portfolio Item Four"},
+    {id: 5, backgroundImg: FIVE_BACKGROUND_IMAGE,  panelName: "Portfolio Item Five"},
   ];
 
 
