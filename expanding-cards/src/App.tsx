@@ -18,11 +18,13 @@ function App() {
     {id: 5, backgroundImg: FIVE_BACKGROUND_IMAGE,  panelName: "Portfolio Item Five",  panelActive: "five"},
   ];
 
-  const [panelActive, setPanelActive] = useState('active');
+  const [panelActive, setPanelActive] = useState('');
 
   const parsedBackgrounds = Array.isArray(backgroundsList) && backgroundsList.map(background => 
     <div 
-      className={`panel  ${panelActive}`}
+      // className={`panel  ${panelActive === background.panelActive ? 'active' : ''}`}
+      className={`panel ${panelActive}`}
+      onClick={() => setPanelActive('active')} 
       key={background.id}
       style={{backgroundImage: `url(${background.backgroundImg})`}}
     >
