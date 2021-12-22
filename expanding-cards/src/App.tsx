@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
 
   const parsedBackgrounds = Array.isArray(backgroundsList) && backgroundsList.map(background => 
     <div 
-      className="panel active" 
+      className={`panel  ${''}`}
       key={background.id}
       style={{backgroundImage: `url(${background.backgroundImg})`}}
     >
