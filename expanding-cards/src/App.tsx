@@ -22,9 +22,8 @@ function App() {
 
   const parsedBackgrounds = Array.isArray(backgroundsList) && backgroundsList.map(background => 
     <div 
-      // className={`panel  ${panelActive === background.panelActive ? 'active' : ''}`}
-      className={`panel ${panelActive}`}
-      onClick={() => setPanelActive('active')} 
+      className={`panel ${panelActive === background.panelActive ? 'active' : ''}`}
+      onClick={() => setPanelActive(background.panelActive)} 
       key={background.id}
       style={{backgroundImage: `url(${background.backgroundImg})`}}
     >
