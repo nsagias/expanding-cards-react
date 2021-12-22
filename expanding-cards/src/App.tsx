@@ -8,7 +8,7 @@ function App() {
   const THREE_BACKGROUND_IMAGE = "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
   const FOUR_BACKGROUND_IMAGE = "https://images.unsplash.com/photo-1559160581-44bd4222d397?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
   const FIVE_BACKGROUND_IMAGE = "https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1203&q=80";
-  const DEFAULT_BACKGROUND_IMAGE = "";
+  // const DEFAULT_BACKGROUND_IMAGE = "";
 
   return (
     <div className="container">
