@@ -36,36 +36,6 @@ function App() {
   return (
     <div className="container">
       {parsedBackgrounds}
-      {/* <div 
-        className={`panel  ${'active'}`}
-        style={{backgroundImage: `url(${ONE_BACKGROUND_IMAGE})`}}>
-        <h3>Portfolio Item One</h3>
-      </div>
-
-      <div 
-        className={`panel  ${''}`}
-        style={{backgroundImage: `url(${TWO_BACKGROUND_IMAGE})`}}>
-        <h3>Portfolio Item Two</h3>
-      </div>
-
-      <div 
-        className={`panel  ${''}`}
-        style={{backgroundImage: `url(${THREE_BACKGROUND_IMAGE})`}}>
-        <h3>Portfolio Item Three</h3>
-      </div>
-
-      <div 
-        className={`panel  ${''}`}
-        style={{backgroundImage: `url(${FOUR_BACKGROUND_IMAGE})`}}>
-        <h3>Portfolio Item Four</h3>
-      </div>
-
-      <div 
-        className={`panel  ${''}`}
-        style={{backgroundImage: `url(${FIVE_BACKGROUND_IMAGE})`}}>
-        <h3>Portfolio Item Five</h3>
-      </div> */}
-
     </div>
   );
 }
