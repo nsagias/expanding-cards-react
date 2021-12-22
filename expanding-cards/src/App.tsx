@@ -18,10 +18,21 @@ function App() {
     {id: 5, backgroundImg: FIVE_BACKGROUND_IMAGE,  panelName: "Portfolio Item Five"},
   ];
 
+  const parsedBackgrounds = Array.isArray(backgroundsList) && backgroundsList.map(background => 
+    <div 
+      className="panel active" 
+      key={background.id}
+      style={{backgroundImage: `url(${background.backgroundImg})`}}
+    >
+      <h3 >{background.panelName}</h3>
+    </div>
+  );
+
 
   return (
     <div className="container">
-      <div 
+      {parsedBackgrounds}
+      {/* <div 
         className={`panel  ${'active'}`}
         style={{backgroundImage: `url(${ONE_BACKGROUND_IMAGE})`}}>
         <h3>Portfolio Item One</h3>
@@ -49,7 +60,7 @@ function App() {
         className={`panel  ${''}`}
         style={{backgroundImage: `url(${FIVE_BACKGROUND_IMAGE})`}}>
         <h3>Portfolio Item Five</h3>
-      </div>
+      </div> */}
 
     </div>
   );
