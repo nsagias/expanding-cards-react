@@ -11,11 +11,11 @@ function App() {
   // const DEFAULT_BACKGROUND_IMAGE = "";
 
   const backgroundsList = [
-    {id: 1, ONE_BACKGROUND_IMAGE},
-    {id: 2, TWO_BACKGROUND_IMAGE},
-    {id: 3, THREE_BACKGROUND_IMAGE},
-    {id: 4, FOUR_BACKGROUND_IMAGE},
-    {id: 5, FIVE_BACKGROUND_IMAGE},
+    {id: 1, backgroundImg: ONE_BACKGROUND_IMAGE},
+    {id: 2, backgroundImg: TWO_BACKGROUND_IMAGE},
+    {id: 3, backgroundImg: THREE_BACKGROUND_IMAGE},
+    {id: 4, backgroundImg: FOUR_BACKGROUND_IMAGE},
+    {id: 5, backgroundImg: FIVE_BACKGROUND_IMAGE},
   ];
 
 
