@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="container">
       <div 
-        className="panel active" 
+        className={`panel  ${'active'}`}
         style={{backgroundImage: `url(${ONE_BACKGROUND_IMAGE})`}}>
         <h3>Portfolio Item One</h3>
       </div>
