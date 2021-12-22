@@ -18,7 +18,7 @@ function App() {
     {id: 5, backgroundImg: FIVE_BACKGROUND_IMAGE,  panelName: "Portfolio Item Five",  panelActive: "five"},
   ];
 
-  const [panelActive, setPanelActive] = useState('');
+  const [panelActive, setPanelActive] = useState('one');
 
   const parsedBackgrounds = Array.isArray(backgroundsList) && backgroundsList.map(background => 
     <div 
