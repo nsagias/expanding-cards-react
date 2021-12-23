@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 
+import {
+  ONE_BACKGROUND_IMAGE,
+  TWO_BACKGROUND_IMAGE,
+  THREE_BACKGROUND_IMAGE,
+  FOUR_BACKGROUND_IMAGE,
+  FIVE_BACKGROUND_IMAGE,
+  SET_DEFAULT_PANEL_ACTIVE
+ } from './images/backgroundImages.jsx'
 
 export default function PaneList() {
-  const ONE_BACKGROUND_IMAGE = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
-  const TWO_BACKGROUND_IMAGE = "https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
-  const THREE_BACKGROUND_IMAGE = "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
-  const FOUR_BACKGROUND_IMAGE = "https://images.unsplash.com/photo-1559160581-44bd4222d397?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
-  const FIVE_BACKGROUND_IMAGE = "https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1203&q=80";
-  // const DEFAULT_BACKGROUND_IMAGE = "";
 
   const backgroundsList = [
     {id: 1, backgroundImg: ONE_BACKGROUND_IMAGE,   panelName: "Portfolio Item One",   panelActive: "one"}, 
@@ -17,7 +19,6 @@ export default function PaneList() {
     {id: 5, backgroundImg: FIVE_BACKGROUND_IMAGE,  panelName: "Portfolio Item Five",  panelActive: "five"},
   ];
   
-  const SET_DEFAULT_PANEL_ACTIVE = 'one';
   const [panelActive, setPanelActive] = useState(SET_DEFAULT_PANEL_ACTIVE);
 
   const parsedBackgrounds = Array.isArray(backgroundsList) && backgroundsList.map(background => 
