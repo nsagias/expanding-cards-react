@@ -13,7 +13,7 @@ interface IBackgroundList {
 
 
 export default function PaneList() {
-  const [panelActive, setPanelActive] = useState(SET_DEFAULT_PANEL_ACTIVE);
+  const [panelActive, setPanelActive] = useState<string>(SET_DEFAULT_PANEL_ACTIVE);
 
   const parsedBackgrounds = Array.isArray(backgroundsList) && backgroundsList.map(background => 
     <div 
