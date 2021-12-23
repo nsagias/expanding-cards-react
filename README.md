@@ -2,6 +2,7 @@
 
 This Mini Project is the starting point for creating custom portfolio app in React and Typescript
 
+!["Screenshot of URLs page"](https://github.com/nsagias/expanding-cards-react/blob/main/docs/01_expandable_card_react.gif)
 
 ##  Dependencies
 - react:        ^17.0.2
