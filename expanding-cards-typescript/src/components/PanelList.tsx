@@ -16,7 +16,7 @@ interface IBackgroundList {
 export default function PaneList(): object {
   const [panelActive, setPanelActive] = useState<React.SetStateAction<string>>(SET_DEFAULT_PANEL_ACTIVE);
 
-  const parsedBackgrounds = Array.isArray(backgroundsList) && backgroundsList.map(background => (
+  const parsedBackgrounds: false | JSX.Element[] = Array.isArray(backgroundsList) && backgroundsList.map(background => (
     <div 
       className={`panel ${panelActive === background.panelActive ? 'active' : ''}`}
       onClick={() => setPanelActive(background.panelActive)} 
