@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   SET_DEFAULT_PANEL_ACTIVE
- } from './images/backgroundImages.jsx';
+ } from './images/backgroundImages';
 import { backgroundsList }  from './helpers/backgroundLIstData';
 
 export default function PaneList() {
