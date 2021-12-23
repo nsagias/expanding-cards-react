@@ -2,16 +2,7 @@ import React, { useState } from 'react';
 import {
   SET_DEFAULT_PANEL_ACTIVE
  } from './images/backgroundImages.jsx';
- import { backgroundsList }  from './helpers/backgroundLIstData';
-
-interface IBackgroundList {
-  id: number;
-  backgroundImg: string;
-  panelName: string;
-  panelActive: string;
-}
-
-
+import { backgroundsList }  from './helpers/backgroundLIstData';
 
 export default function PaneList(): object {
   const [panelActive, setPanelActive] = useState<React.SetStateAction<string>>(SET_DEFAULT_PANEL_ACTIVE);
