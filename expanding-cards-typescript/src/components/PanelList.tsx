@@ -4,6 +4,14 @@ import {
  } from './images/backgroundImages.jsx';
  import { backgroundsList }  from './helpers/backgroundLIstData';
 
+interface IBackgroundList {
+  id: number;
+  backgroundImg: string;
+  panelName: string;
+  panelActive: string;
+}
+
+
 export default function PaneList() {
   const [panelActive, setPanelActive] = useState(SET_DEFAULT_PANEL_ACTIVE);
 
