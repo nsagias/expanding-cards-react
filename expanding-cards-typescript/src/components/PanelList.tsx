@@ -4,7 +4,7 @@ import {
  } from './images/backgroundImages.jsx';
 import { backgroundsList }  from './helpers/backgroundLIstData';
 
-export default function PaneList(): object {
+export default function PaneList() {
   const [panelActive, setPanelActive] = useState<React.SetStateAction<string>>(SET_DEFAULT_PANEL_ACTIVE);
 
   const parsedBackgrounds: false | JSX.Element[] = Array.isArray(backgroundsList) && backgroundsList.map(background => (

@@ -1,5 +1,5 @@
 export interface IBackgroundList {
-  id: number;
+  id: string | number;
   backgroundImg: string;
   panelName: string;
   panelActive: string;
