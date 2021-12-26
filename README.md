@@ -4,7 +4,7 @@ This Mini Project is the starting point for creating custom portfolio app in Rea
 
 !["Screenshot of URLs page"](https://github.com/nsagias/expanding-cards-react/blob/main/docs/01_expandable_card_react.gif)
 
-## Skilled learned
+## Skills Learned
 - Typescript, React, CSS, and FlexBox together
 - Programmatically created panels
 - Programmatically select active panels with React
@@ -12,7 +12,7 @@ This Mini Project is the starting point for creating custom portfolio app in Rea
 - React Mouseover events
 
 
-##  Dependencies
+## Dependencies
 - React:        ^17.0.2
 - React-dom:    ^17.0.2
 - React-scripts: 5.0.0
